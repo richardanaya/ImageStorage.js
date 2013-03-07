@@ -16,5 +16,6 @@ imgStore.save(function(img){
 Important Notes:
 This library requires support for Uint8Array
 Key value pairs stored as tEXt chunks
+There are many types of pngs, this may not work with all
 Many image hosting services pngcrush/reduce/modify images to reduce size
 Have fun!
