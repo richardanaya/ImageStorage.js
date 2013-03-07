@@ -11,3 +11,8 @@ imgStore.save(function(img){
 });
 
 This might be useful in many ways, but be warned, many image hosting servers pngcrush/reduce/modify their image to remove useless data and improve size.
+
+Important Notes:
+This library requires support for Uint8Array
+Many image hosting services pngcrush/reduce/modify images to reduce size
+Have fun!
