@@ -1,6 +1,7 @@
 ImageStorage.js is a simple library for using PNG images as key value pair data holders
 
 var imgStore = ImageStorage.loadFromURL("duck.png");
+var imgStore = ImageStorage.loadFromImage($('#duckImg').get(0));
 
 imgStore.set("foo","bar");
 imgStore.get("foo");
@@ -9,8 +10,6 @@ imgStore.remove("blah");
 imgStore.save(function(img){
     //do something with image with data
 });
-
-This might be useful in many ways, but be warned, many image hosting servers pngcrush/reduce/modify their image to remove useless data and improve size.
 
 Important Notes:
 This library requires support for Uint8Array
