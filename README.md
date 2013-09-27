@@ -1,7 +1,7 @@
 ImageStorage.js
 ===
 
-ImageStorage.js is a simple library for using PNG images as string key value pair data holders
+ImageStorage.js is a simple library for using PNG images as string key value pair data holders. MIT LICENSE
 
 Example Usage:
 ----
